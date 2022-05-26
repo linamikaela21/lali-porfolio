@@ -1,9 +1,12 @@
+import React from 'react';
+import { Header } from './components/Header';
+import { RouterWeb } from './RouterWeb';
+
 export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-          Lali repository
-      </header>
+    <div data-testid="test-id-app">
+      <Header />
+      <RouterWeb />
     </div>
   );
-}
+};
