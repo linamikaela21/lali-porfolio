@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lali-porfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/lali-porfolio/static/js/main.ec5372ad.js",
+    "index.html": "/lali-porfolio/index.html",
+    "main.e6c13ad2.css.map": "/lali-porfolio/static/css/main.e6c13ad2.css.map",
+    "main.ec5372ad.js.map": "/lali-porfolio/static/js/main.ec5372ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ec5372ad.js"
+  ]
+}
