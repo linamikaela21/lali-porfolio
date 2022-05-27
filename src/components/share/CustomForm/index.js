@@ -15,10 +15,14 @@ export const CustomForm = ({
   <Form
     onSubmit={handleSubmit}
     data-testid="test-id-formik-container"
-    className="w-100"
+    className="w-100 rounded py-3 mb-4"
+    style={{ backgroundColor: '#022' }}
   >
-    <h2 className="d-flex justify-content-center">Contact with me</h2>
+    <h2 className="d-flex justify-content-center text-white">
+      Contact with me
+    </h2>
     <CustomInput
+      label="Full Name"
       handleInputChange={handleChange}
       type="text"
       placeholder="Full Name"
@@ -29,6 +33,7 @@ export const CustomForm = ({
       isRequired={true}
     />
     <CustomInput
+      label="E-mail"
       handleInputChange={handleChange}
       type="text"
       placeholder="E-mail"
@@ -39,6 +44,7 @@ export const CustomForm = ({
       isRequired={true}
     />
     <CustomInput
+      label="Your message"
       handleInputChange={handleChange}
       type="textarea"
       placeholder="Your message"
@@ -50,9 +56,10 @@ export const CustomForm = ({
       asText="textarea"
       rows={6}
     />
-    <div className="d-flex justify-content-center m-4 w-100">
+    <div className="d-flex justify-content-center m-3 w-100">
       <Button
-        className="w-25"
+        variant="outline-light"
+        className="w-25 fw-bold"
         size="lg"
         type="submit"
         data-testid="test-id-formik-save"

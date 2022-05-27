@@ -17,19 +17,27 @@ export const CustomInput = ({
   isRequired,
 }) => {
   return (
-    <Form.Group className="w-100" data-testid="test-id-form-group-container">
-      <Form.Label data-testid="test-id-form-label">
-        {label}
+    <Form.Group
+      className="w-100 px-3"
+      data-testid="test-id-form-group-container"
+    >
+      <Form.Label
+        data-testid="test-id-form-label"
+        className="d-flex justify-content-center p-2 fs-4 text-white"
+      >
         {isRequired && (
           <span
-            className="text-danger"
+            className="text-danger px-4"
             data-testid="test-id-label-with-asterisk"
           >
             {' *'}
           </span>
         )}
+        {label}
       </Form.Label>
       <Form.Control
+        className="text-white"
+        style={{ backgroundColor: '#000' }}
         as={asText}
         rows={rows}
         type={type}
@@ -42,7 +50,10 @@ export const CustomInput = ({
         disabled={disabled}
       />
       {errors && (
-        <Form.Text className="text-danger" data-testid="test-id-error-text">
+        <Form.Text
+          className="d-flex justify-content-center text-danger py-3 fs-5"
+          data-testid="test-id-error-text"
+        >
           {errors}
         </Form.Text>
       )}
