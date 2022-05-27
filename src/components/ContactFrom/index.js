@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik } from 'formik';
-import { CustomForm } from '../share/CustomForm';
-import { contactFormSchema } from '../share/CustomForm/schemaContactForm';
+import { CustomForm } from '../xShare/CustomForm';
+import { contactFormSchema } from '../xShare/CustomForm/schemaContactForm';
 
 export const ContactForm = () => {
   const startValues = {

@@ -16,7 +16,6 @@ export const App = () => {
           background: {
             color: {
               value: 'white',
-              opacity: 1,
             },
           },
           fpsLimit: 150,

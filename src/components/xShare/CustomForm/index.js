@@ -58,7 +58,7 @@ export const CustomForm = ({
     />
     <div className="d-flex justify-content-center m-3 w-100">
       <Button
-        variant="outline-light"
+        variant="light"
         className="w-25 fw-bold"
         size="lg"
         type="submit"
