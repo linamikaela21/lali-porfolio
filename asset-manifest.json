@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/lali-porfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/lali-porfolio/static/js/main.33b414ed.js",
+    "main.js": "/lali-porfolio/static/js/main.4c675876.js",
     "static/js/937.925af24b.chunk.js": "/lali-porfolio/static/js/937.925af24b.chunk.js",
+    "static/media/ecommerce-payable.png": "/lali-porfolio/static/media/ecommerce-payable.70a8332de0c9419bdc17.png",
+    "static/media/rick-and-morty.png": "/lali-porfolio/static/media/rick-and-morty.c608bfbe9e46a3c869eb.png",
     "static/media/CV_Lina_Gutierrez_Arribas.pdf": "/lali-porfolio/static/media/CV_Lina_Gutierrez_Arribas.32d78bca610ba738d5ca.pdf",
     "static/media/Lina_Gutierrez_Arribas.jpg": "/lali-porfolio/static/media/Lina_Gutierrez_Arribas.648f9b8f851b003b70f4.jpg",
+    "static/media/crud-frontend.png": "/lali-porfolio/static/media/crud-frontend.834380fb4f5bffd67b8b.png",
     "static/media/postgres.png": "/lali-porfolio/static/media/postgres.346709d92d82791ad17d.png",
     "static/media/mysql.png": "/lali-porfolio/static/media/mysql.67646295cd91e7a3920e.png",
     "static/media/python.png": "/lali-porfolio/static/media/python.f0c9d64775aac23759fe.png",
@@ -37,11 +40,11 @@
     "static/media/materialUi.svg": "/lali-porfolio/static/media/materialUi.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/heroku.svg": "/lali-porfolio/static/media/heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "main.e6c13ad2.css.map": "/lali-porfolio/static/css/main.e6c13ad2.css.map",
-    "main.33b414ed.js.map": "/lali-porfolio/static/js/main.33b414ed.js.map",
+    "main.4c675876.js.map": "/lali-porfolio/static/js/main.4c675876.js.map",
     "937.925af24b.chunk.js.map": "/lali-porfolio/static/js/937.925af24b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.33b414ed.js"
+    "static/js/main.4c675876.js"
   ]
 }
