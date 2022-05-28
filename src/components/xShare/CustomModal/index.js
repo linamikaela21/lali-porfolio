@@ -19,10 +19,10 @@ export const CustomModal = ({ setModalShow, modalShow, project }) => {
         </Button>
       </Modal.Header>
       <Modal.Body>
-        <h4>{project?.description}</h4>
-        <h6>Technologies: {project?.tecnologies}</h6>
+        <h4 className="p-3">{project?.description}</h4>
+        <h6 className="p-3">Technologies: {project?.tecnologies}</h6>
         <div className="d-flex justify-content-between">
-          <Button variant="outline-dark" size="lg" className="fw-bold">
+          <Button variant="outline-success" size="lg" className="fw-bold">
             <a
               href={project?.urlCode}
               target="_blank"
@@ -34,7 +34,7 @@ export const CustomModal = ({ setModalShow, modalShow, project }) => {
               </span>
             </a>
           </Button>
-          <Button variant="outline-dark" size="lg" className="fw-bold">
+          <Button variant="outline-success" size="lg" className="fw-bold">
             <a
               href={project?.urlProject}
               target="_blank"

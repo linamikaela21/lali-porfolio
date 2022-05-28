@@ -5,15 +5,6 @@ import { CustomCarousel } from '../../components/xShare/CustomCarousel';
 export const Projects = () => {
   const projects = [
     {
-      name: 'Personal Budget',
-      image:
-        'https://www.dzoom.org.es/wp-content/uploads/2017/07/seebensee-2384369-810x540.jpg',
-      urlCode: 'https://github.com/linamikaela21/Personal-Budget',
-      description:
-        'This proyect in a mono repository. You can create a user and log in with Mongoose and access to your personal Budget where you can add income and outflow operations.',
-      tecnologies: 'MongoDB, React, Redux, Bootstrap, Formik, Yup, Express',
-    },
-    {
       name: 'CRUD FrontEnd',
       image:
         'https://www.dzoom.org.es/wp-content/uploads/2017/07/seebensee-2384369-810x540.jpg',
@@ -52,11 +43,20 @@ export const Projects = () => {
         'This project display data from MongoDB database making the relationship between three tables',
       tecnologies: 'React, Redux, Axios, Sass, Express, Sequelize, PostgreSQL',
     },
+    {
+      name: 'Personal Budget',
+      image:
+        'https://www.dzoom.org.es/wp-content/uploads/2017/07/seebensee-2384369-810x540.jpg',
+      urlCode: 'https://github.com/linamikaela21/Personal-Budget',
+      description:
+        'This proyect in a mono repository. You can create a user and log in with Mongoose and access to your personal Budget where you can add income and outflow operations.',
+      tecnologies: 'MongoDB, React, Redux, Bootstrap, Formik, Yup, Express',
+    },
   ];
 
   return (
     <Container className="m-4">
-      <h1 className="d-flex justify-content-center mb-5">My Projects </h1>
+      <h1 className="d-flex justify-content-center mb-5">MY PROJECTS</h1>
       <CustomCarousel projects={projects} />
     </Container>
   );
