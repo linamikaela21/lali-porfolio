@@ -20,6 +20,7 @@ export const CustomCarousel = ({ projects }) => {
         <Carousel
           activeIndex={index >= projects?.length ? setIndex(0) : index}
           onSelect={handleSelect}
+          className="bg-secondary p-3"
         >
           {projects?.map((proj, i) => (
             <Carousel.Item key={i}>
@@ -31,10 +32,10 @@ export const CustomCarousel = ({ projects }) => {
                 height={500}
               />
               <Carousel.Caption>
-                <h3>{proj.name}</h3>
+                <h3 className="bg-light py-2 text-secondary">{proj.name}</h3>
                 <div className="d-flex justify-content-center">
                   <Button
-                    variant="outline-light"
+                    variant="secondary"
                     size="lg"
                     className="fw-bold"
                     onClick={() => handleCarousel(proj)}

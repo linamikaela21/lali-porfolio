@@ -11,14 +11,14 @@ export const CustomModal = ({ setModalShow, modalShow, project }) => {
       data-testid="test-id-modal-container"
     >
       <Modal.Header>
-        <Modal.Title className="text-center w-100">
+        <Modal.Title className="text-center w-100 text-secondary py-1">
           <h1>{project?.name}</h1>
         </Modal.Title>
         <Button className="bg-danger" onClick={() => setModalShow(false)}>
           x
         </Button>
       </Modal.Header>
-      <Modal.Body>
+      <Modal.Body className="p-4 m-3 bg-light">
         <h4 className="p-3">{project?.description}</h4>
         <h6 className="p-3">Technologies: {project?.tecnologies}</h6>
         <div className="d-flex justify-content-between">
