@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Carousel, Image, Button, Row } from 'react-bootstrap';
 import { CustomModal } from '../CustomModal';
+import noProject from '../../../assets/images/projects/no-project.png';
 
 export const CustomCarousel = ({ projects }) => {
   const [index, setIndex] = useState(0);
@@ -26,18 +27,27 @@ export const CustomCarousel = ({ projects }) => {
             <Carousel.Item key={i}>
               <Image
                 className="d-block w-100"
-                src={proj.image}
+                src={proj?.image ? proj?.image : noProject}
                 alt={proj.name}
                 width={400}
                 height={500}
               />
               <Carousel.Caption>
-                <h3 className="bg-light py-2 text-secondary">{proj.name}</h3>
-                <div className="d-flex justify-content-center">
+                <h3
+                  className="d-inline p-2 rounded fw-bold"
+                  style={{
+                    background: '#dcdcdc',
+                    color: '#087857',
+                  }}
+                >
+                  {proj.name}
+                </h3>
+                <div className="d-flex py-3 justify-content-center">
                   <Button
-                    variant="secondary"
+                    variant="outline-secondary"
                     size="lg"
                     className="fw-bold"
+                    style={{ color: '#dcdcdc', background: '#087857' }}
                     onClick={() => handleCarousel(proj)}
                   >
                     More Info

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Navbar, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 import { BsFolderFill, BsHouseDoorFill } from 'react-icons/bs';
 import { BiMessageDetail } from 'react-icons/bi';
 import { IoLogoOctocat } from 'react-icons/io';
@@ -9,40 +9,47 @@ export const Header = () => {
   return (
     <Navbar
       bg="light"
+      variant="light"
       expand="lg"
       className="mb-5"
       data-testid="test-id-header"
+      collapseOnSelect
     >
-      <Container fluid className="d-flex justify-content-between mx-5">
-        <Navbar.Brand className="fw-bolder d-block justify-content-between">
+      <Container fluid>
+        <Navbar.Brand className="fw-bolder justify-content-start">
           <div className="d-flex justify-content-between px-5 align-items-center">
             <IoLogoOctocat size={45} />
             <h4 className="mt-2 p-3 px-3">Lali Porfolio</h4>
           </div>
         </Navbar.Brand>
-        <div className="fw-bolder fs-3 d-flex justify-content-evenly w-50">
-          <Link
-            to="/home"
-            className="text-decoration-none text-dark"
-            data-testid="test-id-link"
-          >
-            <BsHouseDoorFill size={40} className="mb-3" />
-          </Link>
-          <Link
-            to="/projects"
-            className="text-decoration-none text-dark"
-            data-testid="test-id-link"
-          >
-            <BsFolderFill size={40} className="mb-3" />
-          </Link>
-          <Link
-            to="/contact"
-            className="text-decoration-none text-dark"
-            data-testid="test-id-link"
-          >
-            <BiMessageDetail size={40} className="mb-3" />
-          </Link>
-        </div>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse>
+          <Nav className="me-auto d-flex w-100 justify-content-around">
+            <div className="d-flex justify-content-between">
+              <Nav.Link className="px-5">
+                <Link to="/" className="text-decoration-none text-black">
+                  <BsHouseDoorFill size={40} className="mx-2" />
+                  <span className="mx-2">Home</span>
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="px-5">
+                <Link
+                  to="/projects"
+                  className="text-decoration-none text-black"
+                >
+                  <BsFolderFill size={40} className="mx-2" />
+                  <span>Projects</span>
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="px-5">
+                <Link to="/contact" className="text-decoration-none text-black">
+                  <BiMessageDetail size={40} className="mx-2" />
+                  <span>Contact</span>
+                </Link>
+              </Nav.Link>
+            </div>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

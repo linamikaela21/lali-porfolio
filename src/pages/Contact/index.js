@@ -7,10 +7,10 @@ export const Contact = () => {
   return (
     <Container>
       <Row className="d-flex w-100 justify-content-between">
-        <Col className="w-50 justify-content-center">
+        <Col className="justify-content-center" sm={12} md={12} lg={6}>
           <ContactForm />
         </Col>
-        <Col className="w-50 justify-content-center">
+        <Col className="justify-content-center" sm={12} md={12} lg={6}>
           <SocialMedia />
         </Col>
       </Row>

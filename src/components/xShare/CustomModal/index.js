@@ -22,29 +22,35 @@ export const CustomModal = ({ setModalShow, modalShow, project }) => {
         <h4 className="p-3">{project?.description}</h4>
         <h6 className="p-3">Technologies: {project?.tecnologies}</h6>
         <div className="d-flex justify-content-between">
-          <Button variant="outline-success" size="lg" className="fw-bold">
+          <Button
+            variant="outline-secondary"
+            size="lg"
+            className="fw-bold"
+            style={{ color: '#dcdcdc', background: '#087857' }}
+          >
             <a
               href={project?.urlCode}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-decoration-none text-black"
+              className="text-decoration-none text-light"
             >
-              <span className=" h-100 m-2 px-4 py-4 fs-4 fw-800">
-                Open Code
-              </span>
+              <span className=" h-100 fs-4 text-center">Open Code</span>
             </a>
           </Button>
-          <Button variant="outline-success" size="lg" className="fw-bold">
+          <Button
+            variant="secondary"
+            size="lg"
+            className="fw-bold"
+            style={{ color: '#dcdcdc', background: '#087857' }}
+            disabled={!project?.urlProject}
+          >
             <a
               href={project?.urlProject}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-decoration-none text-black"
-              disabled={!project?.urlProject}
+              className="text-decoration-none text-light"
             >
-              <span className=" h-100 m-2 px-4 py-4 fs-4 fw-800">
-                Open Project
-              </span>
+              <span className=" h-100 fs-4 text-center">Open Project</span>
             </a>
           </Button>
         </div>

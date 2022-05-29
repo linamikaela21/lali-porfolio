@@ -1,34 +1,8 @@
 import React from 'react';
 import { Container, Image, Col } from 'react-bootstrap';
-import whatsAppImage from '../../assets/images/socialMedia/whatsapp.png';
-import linkedinImage from '../../assets/images/socialMedia/linkedin.png';
-import gmailImage from '../../assets/images/socialMedia/gmail.png';
-import githubImage from '../../assets/images/socialMedia/github.png';
+import { linksSocialMedia } from '../../assets/data/dataSocialMedia';
 
 export const SocialMedia = () => {
-  const linksSocialMedia = [
-    {
-      title: 'WhatsApp',
-      image: whatsAppImage,
-      url: 'https://api.whatsapp.com/send/?phone=543512197488&text&app_absent=0',
-    },
-    {
-      title: 'Linkedin',
-      image: linkedinImage,
-      url: 'https://www.linkedin.com/in/lina-mikaela-gutierrez-arribas/',
-    },
-    {
-      title: 'Gmail',
-      image: gmailImage,
-      url: 'mailto:mikaelagutierrezarribas@gmail.com',
-    },
-    {
-      title: 'Github',
-      image: githubImage,
-      url: 'https://github.com/linamikaela21/linamikaela21',
-    },
-  ];
-
   return (
     <Container className="d-flex justify-content-center my-3">
       <Col className="d-block">

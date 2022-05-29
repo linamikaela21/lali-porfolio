@@ -2,25 +2,25 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { CustomCarousel } from '../../components/xShare/CustomCarousel';
 import crudFrontendImage from '../../assets/images/projects/crud-frontend.png';
-//import laliRestaurantsAppImage from '../../assets/images/projects/lali-restaurants-app.png';
+import laliRestaurantsAppImage from '../../assets/images/projects/lali-restaurants-app.png';
 import ecommercePayableImage from '../../assets/images/projects/ecommerce-payable.png';
 import rickAndMortyImage from '../../assets/images/projects/rick-and-morty.png';
+import noiloanImage from '../../assets/images/projects/noiloan.png';
 
 export const Projects = () => {
   const projects = [
     {
-      name: 'CRUD FrontEnd',
-      image: crudFrontendImage,
-      urlProject: 'https://lali-crud-frontend.netlify.app/',
-      urlCode: 'https://github.com/linamikaela21/CRUD-FrontEnd',
+      name: 'Noiloan Photo-E-Commerce',
+      image: noiloanImage,
+      urlProject: 'https://noiloan.web.app/',
+      urlCode: 'https://github.com/Biblias4Sale',
       description:
-        'This app was maked to learn how make a interactive wab app using only redux to save your data',
-      tecnologies: 'React, Redux, Bootstrap, Formik, Yup',
+        'Photography E-commerce maked it in group of 5 people with User, Admin, Backend including a Bot',
+      tecnologies: 'React, Redux, Express, Sequelize, PostgreSQL',
     },
     {
       name: 'LaliRestaurantsApp',
-      image:
-        'https://www.xtrafondos.com/descargar.php?id=5846&resolucion=2560x1440',
+      image: laliRestaurantsAppImage,
       urlProject: 'https://expo.dev/@linamikaela/LaliResto',
       urlCode: 'https://github.com/linamikaela21/LaliRestaurantsApp',
       description: 'This is a restaurant mobile app maked with React Native',
@@ -36,6 +36,15 @@ export const Projects = () => {
       tecnologies: 'React, Redux, Node-sass, Redux-Persist, Redux-Saga',
     },
     {
+      name: 'CRUD FrontEnd',
+      image: crudFrontendImage,
+      urlProject: 'https://lali-crud-frontend.netlify.app/',
+      urlCode: 'https://github.com/linamikaela21/CRUD-FrontEnd',
+      description:
+        'This app was maked to learn how make a interactive wab app using only redux to save your data',
+      tecnologies: 'React, Redux, Bootstrap, Formik, Yup',
+    },
+    {
       name: 'Rick and Morty',
       image: rickAndMortyImage,
       urlProject: 'https://lali-rick-and-morty.vercel.app/',
@@ -46,8 +55,6 @@ export const Projects = () => {
     },
     {
       name: 'Personal Budget',
-      image:
-        'https://www.xtrafondos.com/descargar.php?id=5846&resolucion=2560x1440',
       urlCode: 'https://github.com/linamikaela21/Personal-Budget',
       description:
         'This proyect in a mono repository. You can create a user and log in with Mongoose and access to your personal Budget where you can add income and outflow operations.',
