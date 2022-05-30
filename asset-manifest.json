@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/lali-porfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/lali-porfolio/static/js/main.1cbc3dc3.js",
+    "main.js": "/lali-porfolio/static/js/main.59218f81.js",
     "static/js/937.925af24b.chunk.js": "/lali-porfolio/static/js/937.925af24b.chunk.js",
     "static/media/ecommerce-payable.png": "/lali-porfolio/static/media/ecommerce-payable.70a8332de0c9419bdc17.png",
+    "static/media/noiloan.png": "/lali-porfolio/static/media/noiloan.977677cbf064f4babf3b.png",
     "static/media/rick-and-morty.png": "/lali-porfolio/static/media/rick-and-morty.c608bfbe9e46a3c869eb.png",
     "static/media/CV_Lina_Gutierrez_Arribas.pdf": "/lali-porfolio/static/media/CV_Lina_Gutierrez_Arribas.ffb25d1e37d074e5eb1f.pdf",
     "static/media/Lina_Gutierrez_Arribas.jpg": "/lali-porfolio/static/media/Lina_Gutierrez_Arribas.648f9b8f851b003b70f4.jpg",
@@ -19,10 +20,12 @@
     "static/media/scrum.png": "/lali-porfolio/static/media/scrum.0cb5849bcf4e248cdeda.png",
     "static/media/netlify.png": "/lali-porfolio/static/media/netlify.a88e9d984623b680eda3.png",
     "static/media/whatsapp.png": "/lali-porfolio/static/media/whatsapp.1387d5cc8d98e5cbc8bc.png",
+    "static/media/mocha.png": "/lali-porfolio/static/media/mocha.e553d5df0d83f8d7cd6e.png",
     "static/media/ct.png": "/lali-porfolio/static/media/ct.910286e6b7cdd39cbb23.png",
     "static/media/kanban.png": "/lali-porfolio/static/media/kanban.ea2ee8b8772804887dbd.png",
     "static/media/digitalOcean.png": "/lali-porfolio/static/media/digitalOcean.cdbfe617de7bb989a1ae.png",
     "static/media/gcf.png": "/lali-porfolio/static/media/gcf.ec1b1db42cd441add827.png",
+    "static/media/jest.png": "/lali-porfolio/static/media/jest.3fc25e2e65d9bececa7f.png",
     "static/media/reactNative.svg": "/lali-porfolio/static/media/reactNative.55360266b3781dae00a5a77c8916f82d.svg",
     "static/media/react.svg": "/lali-porfolio/static/media/react.4f7abcc3a4d5c559d9eb61b5f2dd5a87.svg",
     "static/media/postman.svg": "/lali-porfolio/static/media/postman.e65afafee644ce9fe8a727d01b403189.svg",
@@ -42,11 +45,11 @@
     "static/media/materialUi.svg": "/lali-porfolio/static/media/materialUi.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/heroku.svg": "/lali-porfolio/static/media/heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "main.e6c13ad2.css.map": "/lali-porfolio/static/css/main.e6c13ad2.css.map",
-    "main.1cbc3dc3.js.map": "/lali-porfolio/static/js/main.1cbc3dc3.js.map",
+    "main.59218f81.js.map": "/lali-porfolio/static/js/main.59218f81.js.map",
     "937.925af24b.chunk.js.map": "/lali-porfolio/static/js/937.925af24b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.1cbc3dc3.js"
+    "static/js/main.59218f81.js"
   ]
 }
