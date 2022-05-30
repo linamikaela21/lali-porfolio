@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lali-porfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/lali-porfolio/static/js/main.7d4980c2.js",
+    "main.js": "/lali-porfolio/static/js/main.8ef4d6ad.js",
     "static/js/937.925af24b.chunk.js": "/lali-porfolio/static/js/937.925af24b.chunk.js",
     "static/media/ecommerce-payable.png": "/lali-porfolio/static/media/ecommerce-payable.70a8332de0c9419bdc17.png",
     "static/media/noiloan.png": "/lali-porfolio/static/media/noiloan.977677cbf064f4babf3b.png",
@@ -45,11 +45,11 @@
     "static/media/materialUi.svg": "/lali-porfolio/static/media/materialUi.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/heroku.svg": "/lali-porfolio/static/media/heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "main.e6c13ad2.css.map": "/lali-porfolio/static/css/main.e6c13ad2.css.map",
-    "main.7d4980c2.js.map": "/lali-porfolio/static/js/main.7d4980c2.js.map",
+    "main.8ef4d6ad.js.map": "/lali-porfolio/static/js/main.8ef4d6ad.js.map",
     "937.925af24b.chunk.js.map": "/lali-porfolio/static/js/937.925af24b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.7d4980c2.js"
+    "static/js/main.8ef4d6ad.js"
   ]
 }
