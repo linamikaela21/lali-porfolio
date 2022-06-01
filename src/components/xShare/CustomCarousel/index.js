@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { Container, Carousel, Image, Button, Row } from 'react-bootstrap';
 import { CustomModal } from '../CustomModal';
 import noProject from '../../../assets/images/projects/no-project.png';
+import { projects } from '../../../assets/data/dataProjects';
 
-export const CustomCarousel = ({ projects }) => {
+export const CustomCarousel = () => {
   const [index, setIndex] = useState(0);
   const [modalShow, setModalShow] = useState(false);
   const [project, setProject] = useState({});

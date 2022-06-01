@@ -33,6 +33,11 @@ import fastifyImage from '../../assets/images/tecnologies/fastify.png';
 import cypressImage from '../../assets/images/tecnologies/cypress.jpeg';
 import jestImage from '../../assets/images/tecnologies/jest.png';
 import mochaImage from '../../assets/images/tecnologies/mocha.png';
+import kubernetesImage from '../../assets/images/tecnologies/kubernetes.png';
+import dockerImage from '../../assets/images/tecnologies/docker.png';
+import firebaseImage from '../../assets/images/tecnologies/firebase.png';
+import awsImage from '../../assets/images/tecnologies/aws.png';
+import eslintImage from '../../assets/images/tecnologies/eslint.png';
 
 export const tecnologies = [
   {
@@ -46,15 +51,15 @@ export const tecnologies = [
     Frontend: [
       { title: 'Html', image: htmlImage },
       { title: 'React', image: reactImage },
-      { title: 'redux', image: reduxImage },
-      { title: 'nextJs', image: nextJsImage },
+      { title: 'Redux', image: reduxImage },
+      { title: 'NextJs', image: nextJsImage },
     ],
   },
   {
     'Desing Libraries': [
       { title: 'Bootstrap', image: bootstrapImage },
       { title: 'Css', image: cssImage },
-      { title: 'sass', image: sassImage },
+      { title: 'Sass', image: sassImage },
       { title: 'Material', image: materialUiImage },
       { title: 'Tailwind', image: tailwindImage },
       { title: 'Less', image: lessImage },
@@ -62,9 +67,11 @@ export const tecnologies = [
   },
   {
     Backend: [
-      { title: 'nodeJs', image: nodeJsImage },
+      { title: 'NodeJs', image: nodeJsImage },
       { title: 'ExpressJs', image: expressImage },
       { title: 'Fastify', image: fastifyImage },
+      { title: 'Kubernetes', image: kubernetesImage },
+      { title: 'Docker', image: dockerImage },
     ],
   },
   {
@@ -73,6 +80,7 @@ export const tecnologies = [
       { title: 'Postgres', image: postgresImage },
       { title: 'Sequelize', image: sequelizeImage },
       { title: 'MySQL', image: mysqlImage },
+      { title: 'Firebase', image: firebaseImage },
     ],
   },
   { Mobile: [{ title: 'Native', image: reactNativeImage }] },
@@ -91,13 +99,19 @@ export const tecnologies = [
       { title: 'Mocha', image: mochaImage },
     ],
   },
-  { Cloud: [{ title: 'GoogleCloud', image: gcfImage }] },
+  {
+    Cloud: [
+      { title: 'GoogleCloud', image: gcfImage },
+      { title: 'AWS', image: awsImage },
+    ],
+  },
   {
     Tools: [
       { title: 'CommerceTools', image: CTImage },
       { title: 'Postman', image: postmanImage },
       { title: 'VSC', image: vscImage },
       { title: 'Figma', image: figmaImage },
+      { title: 'Eslint', image: eslintImage },
     ],
   },
   {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Image, Col, Row } from 'react-bootstrap';
-import { tecnologies } from './data';
+import { tecnologies } from '../../assets/data/dataTecnologies';
 
 export const Tecnologies = () => {
   return (
