@@ -47,8 +47,15 @@ export const projects = [
     urlProject: 'https://lali-pokemon-nextjs-app.vercel.app/',
     urlCode: 'https://github.com/linamikaela21/pokemon-nextjs-app',
     description:
-      'This project display pokemons from https://pokeapi.co/ api with TypeScript using @nextui-org/reac for the desing',
+      'This project display pokemons from https://pokeapi.co/ api with TypeScript using @nextui-org/react for the desing',
     tecnologies: 'NextJS, SEO, TypeScript',
+  },
+  {
+    name: 'Personal Budget',
+    urlCode: 'https://github.com/linamikaela21/Personal-Budget',
+    description:
+      'This proyect in a mono repository. You can create a user and log in with Mongoose and access to your personal Budget where you can add income and outflow operations.',
+    tecnologies: 'MongoDB, React, Redux, Bootstrap, Formik, Yup, Express',
   },
   {
     name: 'CRUD FrontEnd',
@@ -60,10 +67,10 @@ export const projects = [
     tecnologies: 'React, Redux, Bootstrap, Formik, Yup',
   },
   {
-    name: 'Personal Budget',
-    urlCode: 'https://github.com/linamikaela21/Personal-Budget',
+    name: 'Lali Jira',
+    urlCode: 'https://github.com/linamikaela21/lali-jira-nexjs',
     description:
-      'This proyect in a mono repository. You can create a user and log in with Mongoose and access to your personal Budget where you can add income and outflow operations.',
-    tecnologies: 'MongoDB, React, Redux, Bootstrap, Formik, Yup, Express',
+      'This project display data from MongoDB using a docker image simulation Jira App. It was created with TypeScript using materialUI for the desing',
+    tecnologies: 'MongoDB, Docker, NextJS, TypeScript, MaterialIU',
   },
 ];
