@@ -18,7 +18,7 @@ export const Header = () => {
         <Navbar.Brand className="fw-bolder justify-content-start">
           <div className="d-flex justify-content-between px-5 align-items-center">
             <Image src={require('../../assets/images/lmk.jpeg')} width={50} />
-            <h4 className="mt-2 p-3 px-3">Lali Porfolio</h4>
+            <h4 className="mt-2 p-3 px-3">Lali Portfolio</h4>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
