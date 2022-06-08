@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Container, Nav, Image } from 'react-bootstrap';
 import { BsFolderFill, BsHouseDoorFill } from 'react-icons/bs';
 import { BiMessageDetail } from 'react-icons/bi';
-import { IoLogoOctocat } from 'react-icons/io';
 
 export const Header = () => {
   return (
@@ -18,7 +17,7 @@ export const Header = () => {
       <Container fluid>
         <Navbar.Brand className="fw-bolder justify-content-start">
           <div className="d-flex justify-content-between px-5 align-items-center">
-            <IoLogoOctocat size={45} />
+            <Image src={require('../../assets/images/lmk.jpeg')} width={50} />
             <h4 className="mt-2 p-3 px-3">Lali Porfolio</h4>
           </div>
         </Navbar.Brand>
